@@ -8,7 +8,7 @@ function sayHello(input) {
     if (input === true || input === false) {
         return "Hello, Boolean!"
     } else if (input === noGreet) {
-        return "You're a bot!"
+        return "You're a bot! But hello anyways."
     } else {
             return "Hello, " + input + "!";
         }

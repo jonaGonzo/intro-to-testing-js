@@ -5,10 +5,12 @@ function helloWorld(){
 
 function sayHello(input) {
     if (input === true || input === false) {
-        return "Hello, World!"
+        return "Hello, Boolean!"
+    } else if (input === Number || input === null) {
+        return "You're a bot!"
     } else {
             return "Hello, " + input + "!";
-    }
+        }
 }
 
 

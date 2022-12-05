@@ -6,7 +6,7 @@ let noGreet = [ Number, null, ""]
 
 function sayHello(input) {
     if (input === true || input === false) {
-        return "Hello, Boolean!"
+        return "Hello, World!"
     } else if (input === noGreet) {
         return "You're a bot! But hello anyways."
     } else {

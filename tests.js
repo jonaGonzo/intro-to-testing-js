@@ -34,9 +34,9 @@ describe('sayHello', function() {
         expect(sayHello("World")).toBe("Hello, World!");
     });
     it('should return "true" when executed', function () {
-        expect(sayHello(true)).toBe("Hello, Boolean!");
+        expect(sayHello(true)).toBe("Hello, World!");
     });
-    it('should return "true" when executed', function () {
-        expect(sayHello(false)).toBe("Hello, Boolean!");
+    it('should return "false" when executed', function () {
+        expect(sayHello(false)).toBe("Hello, World!");
     });
 });

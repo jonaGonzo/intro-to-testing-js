@@ -40,3 +40,15 @@ describe('sayHello', function() {
         expect(sayHello(false)).toBe("Hello, World!");
     });
 });
+
+describe('isFive', function (){
+    it('should return "true" when executed', function () {
+        expect(isFive(5)).toBe(true);
+    });
+    it('should return "true" when executed', function () {
+        expect(isFive("5")).toBe(true);
+    });
+    it('should return "boolean" no matter what input', function () {
+        expect(typeof isFive()).toBe('boolean');
+    });
+});

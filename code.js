@@ -14,4 +14,7 @@ function sayHello(input) {
         }
 }
 
-
+function isFive(num){
+    num = parseInt(num)
+    return num === 5;
+}

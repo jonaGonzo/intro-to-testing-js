@@ -14,7 +14,14 @@ function sayHello(input) {
         }
 }
 
-function isFive(num){
-    num = parseInt(num)
-    return num === 5;
+function isFive(input){
+    input = parseInt(input)
+    return input === 5;
+}
+
+function isEven(input){
+    if (typeof input === 'boolean'){
+        return false;
+    }
+    return input % 2 === 0;
 }
